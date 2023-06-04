@@ -1,0 +1,84 @@
+/*
+        .roleta {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background-color: gray;
+            position: relative;
+            overflow: hidden;
+
+        }
+
+        .setor {
+            width: 100%;
+            height: 20%;
+            margin-top: 5px;
+            background-color: white;
+        }
+        */
+
+.roleta {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid #847f7f;
+    overflow: hidden;
+}
+
+.setor1,
+.setor2,
+.setor3,
+.setor4 {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+
+.setor1 {
+    margin-top: 0%;
+    margin-left: 0%;
+    background-color: rgb(84, 71, 71);
+}
+
+.setor2 {
+    margin-top: 0%;
+    margin-left: 50%;
+    background-color: rgb(230, 193, 193);
+}
+
+.setor3 {
+    margin-top: 50%;
+    margin-left: 0%;
+    background-color: rgb(117, 97, 97);
+}
+
+.setor4 {
+    margin-top: 50%;
+    margin-left: 50%;
+    background-color: rgb(181, 152, 152);
+}
+
+.elemento1 {
+    margin-top: 55px;
+    margin-left: 20px;
+    transform: rotate(45deg);
+}
+
+.elemento2 {
+    margin-top: 45px;
+    margin-left: 0px;
+    transform: rotate(-45deg);
+}
+
+.elemento3 {
+    margin-top: 25px;
+    margin-left: 20px;
+    transform: rotate(-45deg);
+}
+
+.elemento4 {
+    margin-top: 40px;
+    margin-left: 0px;
+    transform: rotate(45deg);
+}
