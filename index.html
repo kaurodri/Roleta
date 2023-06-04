@@ -10,27 +10,34 @@
 </head>
 
 <body>
-    <div class="roleta">
-        <div class="setor">
-            <div class="setor1">
-                <p class="elemento1" id="elemento4">Elemento 4</p>
+    <div class="wrapper">
+        <form>
+            <div class="grupo-tabela">
+                <div class="roleta">
+                    <div class="setor">
+                        <div class="setor1">
+                            <p class="elemento1" id="elemento4">Elemento 4</p>
+                        </div>
+                        <div class="setor2">
+                            <p class="elemento2" id="elemento1">Elemento 1</p>
+                        </div>
+                        <div class="setor3">
+                            <p class="elemento3" id="elemento3">Elemento 3</p>
+                        </div>
+                        <div class="setor4">
+                            <p class="elemento4" id="elemento2">Elemento 2</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <button id="girarBtn" class="botao"onclick="girar()">Girar</button>
+                <p id="resultado"class="resultado">Ganhador: </p>
+                <div class="form-textarea">
+                    <label for="mensagem"></label>
+                    <textarea id="mensagem" cols="30" rows="10"></textarea>
+                </div>
             </div>
-            <div class="setor2">
-                <p class="elemento2"id="elemento1">Elemento 1</p>
-            </div>
-            <div class="setor3">
-                <p class="elemento3"id="elemento3">Elemento 3</p>
-            </div>
-            <div class="setor4">
-                <p class="elemento4"id="elemento2">Elemento 2</p>
-            </div>
-        </div>
-    </div>
-    <button id="girarBtn" onclick="girar()">Girar</button>
-    <p id="resultado">Ganhador: </p>
-    <div class="form-textarea">
-        <label for="mensagem"></label>
-        <textarea id="mensagem" cols="30" rows="10"></textarea>
+        </form>
     </div>
 </body>
 

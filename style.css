@@ -1,28 +1,47 @@
-/*
-        .roleta {
-            width: 300px;
-            height: 300px;
-            border-radius: 50%;
-            background-color: gray;
-            position: relative;
-            overflow: hidden;
+html, body { /* resetando o body */
+    width: 100%;
+    max-width: 100vw; /* 100 view width */
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
 
-        }
+body {
+    background: rgb(45, 40, 40);
+    background: linear-gradient(90deg, rgba(45, 40, 40, 1) 0%, rgba(0, 0, 0,1) 100%);
+}
 
-        .setor {
-            width: 100%;
-            height: 20%;
-            margin-top: 5px;
-            background-color: white;
-        }
-        */
+.wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 700px;
+    height: 350px;
+    padding: 16px; /* aplica um espaçamento em todas as laterais, cima baixo direita esquerda*/
+}
+
+.grupo-tabela {
+    margin-left: 0%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 0.9em;
+    font-family: sans-serif;
+
+}
 
 .roleta {
     width: 200px;
     height: 200px;
     position: relative;
     border-radius: 50%;
-    border: 1px solid #847f7f;
+    border: 1px solid #090909;
     overflow: hidden;
 }
 
@@ -81,4 +100,17 @@
     margin-top: 40px;
     margin-left: 0px;
     transform: rotate(45deg);
+}
+
+.resultado {
+    color: rgb(255, 255, 255);
+}
+
+.botao {
+    margin-left: 40%;
+}
+
+.roleta {
+    margin-left: 8%;
+    margin-top: 5%;
 }
